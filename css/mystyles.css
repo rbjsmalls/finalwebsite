@@ -1,0 +1,63 @@
+img{
+    width: 500px;
+    border: black 10px;
+
+    
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: black;
+    background-color: rgb(228, 255, 255);
+    float: left;
+    margin-right: 20px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    text-align:right; 
+    position: absolute;
+    right:100px
+
+
+  }
+
+.content {
+    display: inline-block; /* Ensure the content is displayed in a block */
+    text-align: left; /* Left align the text */
+    
+  }
+.boldtext{
+    font-weight: bold
+}
+.background{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.RgzSYkFWvY53DDj79kHUBQHaE-&pid=Api&P=0&h=180);
+}
+.white-block {
+    background-color: white;
+    padding: 10px;
+  }
+  .back-to-top-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 999;
+  }
+  
+  .back-to-top {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
